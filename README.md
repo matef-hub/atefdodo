@@ -10,6 +10,8 @@
   <sub>القانون المصري × هندسة البرمجيات × الذكاء الاصطناعي التطبيقي</sub>
 </div>
 
+**[Interactive portfolio — source](docs/)** · **[How to publish the GitHub profile and Pages site](PROFILE_SETUP.md)**
+
 ## The intersection of law and software
 
 I'm **Mohamed Atef**, an Egyptian lawyer who builds tools for real legal workflows: finding case law, organizing hearings, managing matters, and calculating procedural deadlines. My approach starts with the legal problem, then chooses the right data model, interface and engineering tools.
