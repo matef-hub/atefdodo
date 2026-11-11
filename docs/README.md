@@ -31,3 +31,5 @@ Intended URL after an actual successful deployment: `https://matef-hub.github.io
 - No analytics tracking scripts, visitor trackers or secrets.
 - Content and links describe repositories as they are documented; do not infer production certification.
 - Use real, redacted screenshots only if checked in and explicitly labeled.
+
+The public profile README is now live in [matef-hub/matef-hub](https://github.com/matef-hub/matef-hub). The interactive site is a separate GitHub Pages deployment.
