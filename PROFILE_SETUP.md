@@ -1,39 +1,55 @@
-# Publish the legal-tech portfolio on the GitHub profile
+# Publishing & account setup
 
-The finished portfolio currently lives in [README.md](README.md), with original assets in [assets/](assets/).
+## What has already been committed
 
-GitHub shows a profile README **only** when a **public repository named exactly `matef-hub`** exists under the `matef-hub` account and contains a nonempty root `README.md`.
+- [Original GitHub profile README](README.md), legal-tech header SVG and research motion diagram.
+- [Responsive interactive portfolio](docs/index.html) with [styles](docs/style.css), [JavaScript](docs/app.js), and a local quality checker.
+- [GitHub Actions workflow](.github/workflows/portfolio.yml) that validates the portfolio and deploys once **GitHub Pages is enabled with GitHub Actions**.
+- Project-specific README updates throughout the owned repositories.
+- Security remediation commits for `atef`, `Legal-management-666`, and `SmartLawyer` (current-tree .env / signing-key removals). Historic exposure and credential rotation remain separate tasks.
 
-## One-time setup (GitHub web interface)
+## Why the profile does not update automatically
 
-1. Sign in as [@matef-hub](https://github.com/matef-hub).
-2. Select **New repository**, enter **`matef-hub`** as the repository name and choose **Public**.
-3. Create a root `README.md`. Copy the complete contents of this repository's [README.md](README.md) into that file.
-4. Save and open [the profile page](https://github.com/matef-hub). The SVG URLs in the README already use absolute paths hosted in `matef-hub/atefdodo`; no additional asset uploads are required.
+GitHub only shows a public profile README from the public repository whose name **exactly matches the account username**, i.e. [`matef-hub/matef-hub`](https://github.com/matef-hub/matef-hub). The current connected GitHub integration can edit existing repositories but does **not** expose creating new repositories, editing a user's public profile fields, configuring Pages or changing pinned items.
 
-## Suggested profile bio (editable)
+## Option A — One local authenticated setup script (Windows)
 
-`Egyptian lawyer building legal research, judicial workflow & AI-assisted legal systems | Arabic NLP · Android · Laravel`
+1. Clone this repository or pull its latest changes.
+2. Install [GitHub CLI](https://cli.github.com/), run `gh auth login` and authenticate as `matef-hub` with repository and profile write permission.
+3. In PowerShell 7, from the repository folder, execute:
 
-Suggested website: `https://ateflaw.com/`
+```powershell
+pwsh -File .\scripts\complete-profile-setup.ps1
+```
 
-Suggested LinkedIn: `https://www.linkedin.com/in/moateflawyer/`
+The script validates the connected login, creates the special public profile repo only if missing, publishes the prepared README, updates the six project's descriptions and topics, edits your professional bio and tries to enable/deploy the portfolio via GitHub Pages. It does not touch private repositories or rotate secrets.
 
-## Suggested six pinned repositories
+**Pinned items still require GitHub's UI** — public GitHub APIs do not currently expose a supported mutation to change user pinned repositories.
 
-- [ahkam-app](https://github.com/matef-hub/ahkam-app) — Egyptian case-law search
-- [agenda](https://github.com/matef-hub/agenda) — focused judicial agenda
-- [Egyptian-Legal-Deadlines-Calculator](https://github.com/matef-hub/Egyptian-Legal-Deadlines-Calculator) — Android procedural time limits
-- [SmartLawyer](https://github.com/matef-hub/SmartLawyer) — Android practice workflows
-- [Legal-management-666](https://github.com/matef-hub/Legal-management-666) — business/legal documents
-- [smart-lawyer-ai-training](https://github.com/matef-hub/smart-lawyer-ai-training) — Egyptian legal NLP research materials
+## Option B — Manually finish inside GitHub
 
-Pinning, changing the GitHub bio, and creating the new repository require profile/repository administration access, which the connected document-editing integration does not expose.
+1. [Create a public repository](https://github.com/new) named **`matef-hub`**, with a root `README.md` and copy [this README](README.md) into it.
+2. Visit **[Profile](https://github.com/matef-hub) → Edit profile**; set the professional bio and `https://ateflaw.com/` website.
+3. For [this portfolio repo](https://github.com/matef-hub/atefdodo), choose **Settings → Pages → Source = GitHub Actions**. Then run [Portfolio validation and GitHub Pages](https://github.com/matef-hub/atefdodo/actions) or push a file update.
+4. On your profile choose **Customize your pins** and select the six projects below.
 
-## Publishing checklist
+## Suggested professional bio
 
-- Replace placeholders with **genuine, redacted application screenshots**, never invented product UI presented as shipped.
-- Add project-specific descriptions and search topics.
-- Link only verified CI workflows and truthful release statuses.
-- Keep live client data, commercial database contents, passwords and signing keys out of all repositories.
-- Audit licensing, secrets and tracked files before showcasing commercial source code.
+`Egyptian lawyer building legal research, judicial workflows and AI-assisted legal systems | Arabic NLP · Android · Laravel`
+
+## Recommended six pins
+
+1. [ahkam-app](https://github.com/matef-hub/ahkam-app)
+2. [agenda](https://github.com/matef-hub/agenda)
+3. [Egyptian-Legal-Deadlines-Calculator](https://github.com/matef-hub/Egyptian-Legal-Deadlines-Calculator)
+4. [SmartLawyer](https://github.com/matef-hub/SmartLawyer)
+5. [Legal-management-666](https://github.com/matef-hub/Legal-management-666)
+6. [smart-lawyer-ai-training](https://github.com/matef-hub/smart-lawyer-ai-training)
+
+## Security and transparency
+
+- Verify any active credentials historically tracked in the public repositories, and rotate as needed. File deletion from current HEAD does not purge Git history.
+- Treat app signing keys according to Android/Google Play key-rotation policies.
+- Validate any genuine application screenshots before showing them as shipped UI; the portfolio currently uses clearly identified **original illustrative diagrams**.
+- [Ahkam's public MIT license](https://github.com/matef-hub/ahkam-app/blob/main/LICENSE) requires a licensing/security review before changing the commercial distribution strategy.
+- Neither static design nor README changes guarantee server-side authorization, production security or a live deployment.
