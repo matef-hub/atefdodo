@@ -28,7 +28,7 @@ class Inspector(HTMLParser):
             self.mains += 1
         if tag == "h1":
             self.h1s += 1
-        if tag == "img" and not a.get("alt"):
+        if tag == "img" and "alt" not in a:
             self.errors.append("Image without alt")
         for key in ("src", "href"):
             if a.get(key):
