@@ -8,11 +8,13 @@
 - Project-specific README updates throughout the owned repositories.
 - Security remediation commits for `atef`, `Legal-management-666`, and `SmartLawyer` (current-tree .env / signing-key removals). Historic exposure and credential rotation remain separate tasks.
 
-## Why the profile does not update automatically
+## Profile publication status — completed
 
-GitHub only shows a public profile README from the public repository whose name **exactly matches the account username**, i.e. [`matef-hub/matef-hub`](https://github.com/matef-hub/matef-hub). The current connected GitHub integration can edit existing repositories but does **not** expose creating new repositories, editing a user's public profile fields, configuring Pages or changing pinned items.
+The user-created **public** special repository [`matef-hub/matef-hub`](https://github.com/matef-hub/matef-hub) now exists. The complete bilingual profile README and both animated original SVG illustrations were copied directly into the matching repository and verified on its default `main` branch.
 
-## Option A — One local authenticated setup script (Windows)
+**No further README creation or copying is required.** The remaining browser-only optional steps are updating GitHub's public About/Bio, selecting profile pins and enabling GitHub Pages for the interactive site in `matef-hub/atefdodo`. This connected integration supports file changes but does not expose the necessary profile or Pages administration actions.
+
+## Optional — Windows setup script for profile metadata and Pages (not needed for README)
 
 1. Clone this repository or pull its latest changes.
 2. Install [GitHub CLI](https://cli.github.com/), run `gh auth login` and authenticate as `matef-hub` with repository and profile write permission.
@@ -26,12 +28,11 @@ The script validates the connected login, creates the special public profile rep
 
 **Pinned items still require GitHub's UI** — public GitHub APIs do not currently expose a supported mutation to change user pinned repositories.
 
-## Option B — Manually finish inside GitHub
+## Finish remaining display settings from GitHub mobile
 
-1. [Create a public repository](https://github.com/new) named **`matef-hub`**, with a root `README.md` and copy [this README](README.md) into it.
-2. Visit **[Profile](https://github.com/matef-hub) → Edit profile**; set the professional bio and `https://ateflaw.com/` website.
-3. For [this portfolio repo](https://github.com/matef-hub/atefdodo), choose **Settings → Pages → Source = GitHub Actions**. Then run [Portfolio validation and GitHub Pages](https://github.com/matef-hub/atefdodo/actions) or push a file update.
-4. On your profile choose **Customize your pins** and select the six projects below.
+1. Visit **[Profile](https://github.com/matef-hub) → Edit profile**; set the professional bio and `https://ateflaw.com/` website.
+2. For [this portfolio repo](https://github.com/matef-hub/atefdodo), choose **Settings → Pages → Source = GitHub Actions**. Then run [Portfolio validation and GitHub Pages](https://github.com/matef-hub/atefdodo/actions) or push a file update.
+3. On your profile choose **Customize your pins** and select the six projects below.
 
 ## Suggested professional bio
 
