@@ -1,55 +1,61 @@
-### <img src="https://github.com/TheDudeThatCode/TheDudeThatCode/blob/master/Assets/Developer.gif" width="45" /> About Me:
+<div align="center">
+  <img src="https://raw.githubusercontent.com/matef-hub/atefdodo/main/assets/legaltech-header.svg" alt="Mohamed Atef — Lawyer, Legal Tech Developer & Applied AI" width="100%" />
 
-<p align="left"> <a href="https://eg.linkedin.com/in/moateflawyer" target="blank"><img src="https://img.shields.io/twitter/follow/atefdodo" alt="atefdodo" /></a>
- </p>
+  <br />
 
-- 👷‍♂️ Ex-intern at [Heuro labs](https://www.linkedin.com/company/heuro-labs)
-- 🔭 I’m currently working on [writing a interpreter for a new language.](https://github.com/atefdodo/nano-compiler)
-- 📫 How to reach me **atefdodo@gmail.com** (let's collab)
-- 💬 Ask me about **anything related to technologies I work with :)**
-- 🌱 I’m currently learning **Advanced Go**
+  **Egyptian Lawyer · Legal Software Developer · Applied AI & Arabic Legal Search**
 
-<p align="left"> <img src="https://komarev.com/ghpvc/?username=atefdodo&label=Profile%20views&color=0e75b6&style=flat" alt="atefdodo" /> </p>
+  [Legal practice](https://ateflaw.com/) &nbsp;·&nbsp; [LinkedIn](https://www.linkedin.com/in/moateflawyer/) &nbsp;·&nbsp; [GitHub](https://github.com/matef-hub) &nbsp;·&nbsp; [Ahkam](https://ahkam.app/)
 
-<h3 align="left">Connect with me:</h3>
-<p align="left">
-<a href="https://eg.linkedin.com/in/moateflawyer" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/twitter.svg" alt="atefdodo" height="30" width="40" /></a><a href="https://eg.linkedin.com/in/moateflawyer" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="atefdodo" height="30" width="40" /></a>
+  <sub>القانون المصري × هندسة البرمجيات × الذكاء الاصطناعي التطبيقي</sub>
+</div>
 
-<h3 align="left">Languages and Tools:</h3>
+## The intersection of law and software
 
-<p align="left"> 
+I'm **Mohamed Atef**, an Egyptian lawyer who builds tools for real legal workflows: finding case law, organizing hearings, managing matters, and calculating procedural deadlines. My approach starts with the legal problem, then chooses the right data model, interface and engineering tools.
 
-<a href="https://golang.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/go/go-original.svg" alt="go" width="40" height="40"/> </a>
-<a href="https://www.typescriptlang.org/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/typescript/typescript-original.svg" alt="typescript" width="40" height="40"/> </a>
-<a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="javascript" width="40" height="40"/> </a>
-<a href="https://www.w3schools.com/cpp/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/cplusplus/cplusplus-original.svg" alt="cplusplus" width="40" height="40"/> </a>
-<a href="https://www.w3schools.com/cs/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/csharp/csharp-original.svg" alt="csharp" width="40" height="40"/> </a>
-<a href="https://www.java.com" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg" alt="java" width="40" height="40"/> </a>
-<a href="https://www.python.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="python" width="40" height="40"/> </a>
-<a href="https://www.ruby-lang.org/en/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/ruby/ruby-original.svg" alt="ruby" width="40" height="40"/> </a>
+أعمل على تطوير أدوات عربية مخصصة للممارسة القانونية المصرية؛ هدفها تسهيل الوصول للمعلومة القانونية وتنظيم العمل مع الحفاظ على دقة المصدر، ووضوح الحالات التي تحتاج إلى مراجعة بشرية.
 
-<br>
+<img src="https://raw.githubusercontent.com/matef-hub/atefdodo/main/assets/research-signal.svg" alt="Legal research, verified data and applied AI" width="100%" />
 
-<a href="https://www.postgresql.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/postgresql/postgresql-original-wordmark.svg" alt="postgresql" width="40" height="40"/> </a>
-<a href="https://www.sqlite.org/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/sqlite/sqlite-icon.svg" alt="sqlite" width="40" height="40"/> </a>
-<a href="https://redis.io" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/redis/redis-original-wordmark.svg" alt="redis" width="40" height="40"/> </a>
-<a href="https://www.mongodb.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original-wordmark.svg" alt="mongodb" width="40" height="40"/> </a>
-<a href="https://www.mysql.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg" alt="mysql" width="40" height="40"/> </a>
+## Selected legal-tech work
 
-<br>
+| Research & knowledge | Practice & workflow |
+|:--|:--|
+| **[Ahkam — الموسوعة القضائية](https://github.com/matef-hub/ahkam-app)**<br/>Research interface for Egyptian judgments and legal principles, with Arabic-aware search. [Project site](https://ahkam.app/) | **[Judicial Agenda — الأجندة القضائية](https://github.com/matef-hub/agenda)**<br/>A focused Arabic Flutter agenda for hearings, powers of attorney, bailiff work and office tasks. |
+| **[Egyptian Legal Deadlines Calculator](https://github.com/matef-hub/Egyptian-Legal-Deadlines-Calculator)**<br/>Android-focused statutory deadline calculation; legal references and exceptional situations require verification. | **[SmartLawyer](https://github.com/matef-hub/SmartLawyer)**<br/>Native Android exploration of client, matter and hearing management with Kotlin and Compose. |
+| **[Legal AI training research](https://github.com/matef-hub/smart-lawyer-ai-training)**<br/>Structured Egyptian legal text experiments for retrieval and model evaluation; not a substitute for authoritative sources. | **[Legal Management System](https://github.com/matef-hub/Legal-management-666)**<br/>Laravel/Vuexy workflow for matters, hearings, corporate documents and related office operations. |
 
-<a href="https://www.linux.org/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/linux/linux-original.svg" alt="linux" width="40" height="40"/> </a>
-<a href="https://www.docker.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/docker/docker-original-wordmark.svg" alt="docker" width="40" height="40"/> </a>
-<a href="https://git-scm.com/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg" alt="git" width="40" height="40"/> </a>
-<a href="https://www.gnu.org/software/bash/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/gnu_bash/gnu_bash-icon.svg" alt="bash" width="40" height="40"/> </a>
-<a href="https://www.rabbitmq.com" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/rabbitmq/rabbitmq-icon.svg" alt="rabbitMQ" width="40" height="40"/> </a>
-<a href="https://circleci.com" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/circleci/circleci-icon.svg" alt="circleci" width="40" height="40"/> </a>
+> Projects differ in maturity. Repository documentation describes the source available there; a screenshot, public repository or demo does not imply a production-ready service.
 
+## Engineering focus
 
-</p>
+```text
+Egyptian legal sources → structured records → validation & provenance
+                       → Arabic search / retrieval
+                       → human-reviewed legal workflows
+```
 
-<p><img align="left" src="https://github-readme-stats.vercel.app/api/top-langs?username=atefdodo&show_icons=true&locale=en&layout=compact" alt="atefdodo" /></p>
+- **Law & research:** Egyptian case law, legal procedure, statutory deadlines, document workflows and citation provenance.
+- **Software:** Kotlin / Jetpack Compose / Room, Flutter / Dart, Laravel / PHP, JavaScript / TypeScript and Python.
+- **Data & search:** SQLite / FTS5, PostgreSQL, search indexing, Arabic orthographic normalization and relevance evaluation.
+- **AI application:** retrieval-augmented workflows, structured extraction, verification, prompt and model evaluation.
 
-<p>&nbsp;<img align="center" src="https://github-readme-stats.vercel.app/api?username=atefdodo&show_icons=true&locale=en" alt="atefdodo" /></p>
+## How I build
 
-<p><img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=atefdodo&" alt="atefdodo" /></p>
+```mermaid
+flowchart LR
+    A["Authoritative legal text"] --> B["Preserve source & metadata"]
+    B --> C["Normalize / index"]
+    C --> D["Search or AI-assisted retrieval"]
+    D --> E["Human legal review"]
+    E --> F["Useful, auditable output"]
+```
+
+I prefer traceable source documents, small testable changes, clear Arabic UX, data minimization and honest release notes. **AI can assist legal research; it cannot replace checking the current law or the full underlying judgment.**
+
+## Connect
+
+For professional collaboration in **Egyptian legal technology**, connect on [LinkedIn](https://www.linkedin.com/in/moateflawyer/) or explore [ateflaw.com](https://ateflaw.com/).
+
+<sub>Design direction: the court docket meets the engineering blueprint. Original SVG illustrations, restrained motion, and no third-party visitor trackers.</sub>
